@@ -9,6 +9,7 @@ from playsound import playsound
 import pyfiglet
 import random
 
+
 motivational_quotes = [
     "Success is the sum of small efforts, repeated day in and day out.",
     "The future depends on what you do today.",
@@ -103,7 +104,7 @@ def countdown(minutes, message):
     print_ascii(message)
     print("\n")
     print("beep beep".center(os.get_terminal_size().columns))
-    playsound("./digital_watch_alarm.mp3")
+    playsound("./digital_watch_alarm.mp3") # change this path to yours
     cleanTerminal()
 
 def pomodoro(work_time, rest_time, sessions):

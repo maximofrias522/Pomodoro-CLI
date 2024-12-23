@@ -1,30 +1,31 @@
 # Pomodoro Timer CLI
 
-![Project Banner](path-to-your-banner-image)
 
-## 🚀 Features
-- [ ] Describe feature 1
-- [ ] Describe feature 2
-- [ ] Add more features here
-
----
-
-## 🎯 Goals
-- Briefly outline the purpose and goals of your Pomodoro Timer CLI project.
-
----
+## Why?
+is well known that a well structured working schedule will give us better results. The idea of this cli tool is to be simple, just 3 flags to control all your workflow. besides, it shows you motivational quotes to so you feel 💯%.
 
 ## 📦 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/pomodoro-timer-cli.git
+git clone https://github.com/maximofrias522/Pomodoro-CLI.git
 
 # Navigate into the project directory
-cd pomodoro-timer-cli
+cd Pomodoro-CLI
 
-# Run installation script or specify prerequisites
-# Example:
-# pip install -r requirements.txt
+# copy the audio file to your preferene path 
+cp ~/Pomodoro-CLI/digital_watch_alarm.mp3 /your/preference/path
+
+# Make sure to modify this line in the pomo.py file - 107- playsound("./digital_watch_alarm.mp3") # change this path to yours
+
+# Make the code executable
+chmod +x pomo.py
+
+# Change filename and move to corresponding path
+cp ~/Pomodoro-CLI/pomo.py /usr/local/bin/pomo
+
+# Execute a test
+pomo
+
 ```
 
 ---
@@ -32,73 +33,31 @@ cd pomodoro-timer-cli
 ## ⚙️ Usage
 ```bash
 # Example usage command
-python pomodoro.py --time 25 --break 5
-```
-- Add usage details and examples here.
+pomo -w 5 -r 2 -s 4
+# You will set 5 minutes of work, 2 minutes of rest and 4 sessions
 
+# For more details
+pomo -h
+
+```
 ---
 
 ## 🛠️ Development
-### Prerequisites
-- List technologies or packages required for development
-
-### Setup
-```bash
-# Example setup commands
-virtualenv venv
-source venv/bin/activate
-```
-
-### Testing
-```bash
-# Add testing instructions
-pytest tests/
-```
-
----
-
-## 📂 Project Structure
-```plaintext
-.
-├── src
-│   ├── main.py        # Entry point of the project
-│   ├── timer.py       # Timer logic
-│   └── utils.py       # Utility functions
-├── tests              # Unit and integration tests
-├── docs               # Documentation files
-└── README.md          # Project readme
-```
-- Update the structure to match your project layout.
-
----
-
-## 🤝 Contributing
-1. Fork the project
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+Feel free to modify this code and make your own versions for your own necessities.
 
 ---
 
 ## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🌟 Acknowledgements
-- Mention any resources, tutorials, or contributors that helped in building this project.
+This project is licensed under the GPL-3.0 license - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 📧 Contact
 For any inquiries, feel free to reach out:
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [@your-username](https://github.com/your-username)
-- Add more contact links as needed
+- Email: [frsmaximo522@gmail.com](frsmaximo522@gmail.com)
+- GitHub: [@maximofrias522](https://github.com/maximofrias522)
 
 ---
 
-> **Pro Tip:** Customize this README by filling in the placeholders and adding more sections as needed. Make it your own!
 
 
