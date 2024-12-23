@@ -27,14 +27,18 @@ cp ~/Pomodoro-CLI/pomo.py /usr/local/bin/pomo
 pomo
 
 ```
-
+```bash
+# Install dependencies
+python3 -m pip install playsound
+python3 -m pip install pyfiglet
+```
 ---
 
 ## ⚙️ Usage
 ```bash
 # Example usage command
 pomo -w 5 -r 2 -s 4
-# You will set 5 minutes of work, 2 minutes of rest and 4 sessions
+# In this case, you will set 5 minutes of work, 2 minutes of rest and 4 sessions
 
 # For more details
 pomo -h
