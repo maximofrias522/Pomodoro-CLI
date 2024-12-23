@@ -129,7 +129,7 @@ def main():
 
     args = parser.parse_args()
     cleanTerminal()
-    pomodoro(args.work, args.break_time, args.sessions)
+    pomodoro(args.work, args.rest_time, args.sessions)
 
 if __name__ == "__main__":
     main()
