@@ -1,10 +1,17 @@
 # Pomodoro Timer CLI
 
 
-## Why?
-is well known that a well structured working schedule will give us better results. The idea of this cli tool is to be simple, just 3 flags to control all your workflow. besides, it shows you motivational quotes to so you feel 💯%.
+## 🤔 Why?
+is well known that a well structured working schedule will give us better results. The idea of this cli tool is to be simple, just three flags to control all your workflow. besides, it shows you motivational quotes to so you feel 💯%.
 
 ## 📦 Installation
+
+```bash
+# Install dependencies
+python3 -m pip install playsound
+python3 -m pip install pyfiglet
+```
+
 ```bash
 # Clone the repository
 git clone https://github.com/maximofrias522/Pomodoro-CLI.git
@@ -26,11 +33,6 @@ cp ~/Pomodoro-CLI/pomo.py /usr/local/bin/pomo
 # Execute a test
 pomo
 
-```
-```bash
-# Install dependencies
-python3 -m pip install playsound
-python3 -m pip install pyfiglet
 ```
 ---
 
